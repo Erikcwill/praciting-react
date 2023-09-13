@@ -1,8 +1,10 @@
 {
-    "compilerOptions": {
-        "baseUrl": "src"
-    },
-    "include": [
-        "src"
-    ]
+  "compilerOptions": {
+    "baseUrl": "src", // Diretório base do seu projeto
+    "paths": {
+      "components/*": ["components/*"],
+      "utils/*": ["utils/*"],
+      // Adicione outros atalhos conforme necessário
+    }
+  }
 }

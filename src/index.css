@@ -2,5 +2,12 @@
   --font: "Montserrat", sans-serif;
   --white: #ffffff;
   --black: #000000;
-  --gray: #E2E2E2E;
+  --gray: #e2e2e2;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
